@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:2456@localhost/db_Boweldisease'
-app.config['SECRET_KEY'] = 'SJKDKDOKDDMKLSASKA'
+app.config['SECRET_KEY'] = 'XXXX'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
